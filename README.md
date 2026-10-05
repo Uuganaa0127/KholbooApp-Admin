@@ -55,3 +55,13 @@ relative API URL, configure that host to proxy `/api` and `/uploads` to the
 backend: the Vite development proxy is not included in the production build.
 `npm run preview` only previews the static build and does not provide an API
 proxy. Backend hosting is separate from this frontend repository.
+
+## Contribution awards and safety
+
+Premium is free: edit a user and select `premium` membership to recognize their
+contribution. There is no payment requirement.
+
+Use **Зөрчлийн мэдээлэл** to review reports, mark reviewed/dismissed, hide a case,
+or suspend its reported user. Use **Нууцлал / Тусламж** to set the real operator,
+support and privacy email addresses, public HTTPS policy URL and retention text.
+The app reads these values. Do not publish with empty or placeholder contacts.
