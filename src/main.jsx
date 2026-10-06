@@ -23,7 +23,7 @@ const request = async (path, token, options = {}) => {
 };
 
 function Login({ onLogin }) {
-  const [email, setEmail] = useState('admin@youthmed.mn');
+  const [email, setEmail] = useState('admin@youthhealthpf.mn');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const submit = async event => { event.preventDefault(); try { onLogin(await request('/auth/login', null, { method: 'POST', body: JSON.stringify({ email, password }) })); } catch (err) { setError(err.message); } };
